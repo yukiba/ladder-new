@@ -1,0 +1,162 @@
+body {
+  background-color: #F8F8F8;
+}
+
+.no-result {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-result img {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 120px;
+}
+
+.no-result label {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.no-result button {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.results {
+  display: none;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 1px solid #DDDDDD;
+  background-color: #ffffff;
+}
+
+.data {
+  width: 100%;
+  height: 60px;
+  display: none;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.data label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.data-left {
+  width: 75%;
+  height: 100%;
+  float: left;
+}
+
+.data-title {
+  display: block;
+  font-size: 1.5rem;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.data-name {
+  display: block;
+  font-size: 1rem;
+  padding-left: 25px;
+}
+
+.data-right {
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: right;
+}
+
+.data-grade {
+  display: block;
+  font-size: 1.25rem;
+  padding-right: 25px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.data-status {
+  display: block;
+  font-size: 1rem;
+  padding-right: 25px;
+}
+
+.data-grade-id {
+  display: none;
+}
+
+.reload-more {
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.reload-more label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1.5rem;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+//top height
+.div-header{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #DDDDDD;
+  position: relative;
+  text-align: center;
+
+
+}
+//top rounded-rectangle
+.rounded-rectangele{
+  width: 350px;
+  height: 30px;
+  background-color: #5BC4C7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size:13px;
+  color: #FFFFFF;
+  padding:7px;
+  //margin: 0 auto;
+
+}
+
+.div-footer{
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
+  height:50px;
+  //padding-bottom: 0px;
+  bottom: 0px;
+  border-top: 1px solid #DDDDDD;
+  text-align: center;
+}
+
+.bottom-image{
+  height: 30px;
+  width:30px;
+  position: relative;
+  top:50%;
+  margin-top: 10px;
+}
+
+.wrapper{
+  padding-bottom: 50px;
+}
